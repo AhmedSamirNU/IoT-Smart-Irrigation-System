@@ -80,9 +80,7 @@ The implemented prototype successfully achieved:
 
 ## 🎥 Project Demonstration
 
-Watch the project demonstration here:
-
-**▶️ https://drive.google.com/file/d/1THavF8XfbiDCVQ4fUKIMlvT7Og5ExhPg/view?usp=drivesdk**
+[▶️ Watch Project Demo](https://drive.google.com/file/d/1THavF8XfbiDCVQ4fUKIMlvT7Og5ExhPg/view?usp=drivesdk)
 
 ---
 
