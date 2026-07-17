@@ -35,6 +35,12 @@ Modern agriculture increasingly relies on intelligent automation to improve prod
 This project presents an **IoT-Based Smart Irrigation & Greenhouse Monitoring System** capable of monitoring environmental conditions, automatically controlling irrigation and greenhouse ventilation, detecting fire hazards, and providing real-time cloud monitoring using the **Blynk IoT Platform**.
 
 ---
+# 🚀 Project Highlights
+
+- 🌱 Fully automated smart irrigation based on soil moisture readings.
+- 📡 Real-time monitoring through the Blynk IoT platform.
+- 🔥 Integrated fire detection with buzzer alarm.
+- 📄 Complete documentation, diagrams, source code, and demonstration video included.
 
 # 🌟 Project Concept
 
@@ -43,7 +49,7 @@ The following illustration represents the envisioned appearance of the proposed 
 > **Note:** This image is AI-generated and is provided only for conceptual visualization. The actual implemented prototype is shown later in this document.
 
 <p align="center">
-  <img src="Assets/ai-generated-prototype.jpg" width="850">
+  <img src="Assets/ai-generated-prototype.jpg" width="700">
 </p>
 
 ---
@@ -160,6 +166,7 @@ IoT-Smart-Irrigation-System
 │   └── prototype.jpeg
 │
 ├── Code
+│   └── smart-irrigation-system.ino
 │
 ├── Diagrams
 │   ├── hardware-block-diagram.jpg
@@ -168,6 +175,7 @@ IoT-Smart-Irrigation-System
 │   └── system-flowchart.jpg
 │
 ├── Documentation
+│   └── IoT-Smart-Irrigation-System-Report.pdf
 │
 ├── README.md
 └── LICENSE
@@ -175,18 +183,22 @@ IoT-Smart-Irrigation-System
 
 ---
 
+# 🔗 Quick Links
+
+- 💻 **Source Code:** [Code/smart-irrigation-system.ino](Code/smart-irrigation-system.ino)
+- 📄 **Technical Report:** [Documentation/IoT-Smart-Irrigation-System-Report.pdf](Documentation/IoT-Smart-Irrigation-System-Report.pdf)
+- 🎥 **Project Demo:** [Watch Demo Video](https://drive.google.com/file/d/1THavF8XfbiDCVQ4fUKIMlvT7Og5ExhPg/view?usp=drivesdk)
+
 # 📄 Documentation
 
 The complete technical report describing the project architecture, implementation, testing, and evaluation is available in the **Documentation** folder.
 
 ---
-
 # 🎥 Project Demonstration
 
-Watch the complete project demonstration here:
+Watch the complete demonstration of the system in action.
 
-### ▶️ [Watch Demo Video](https://drive.google.com/file/d/1THavF8XfbiDCVQ4fUKIMlvT7Og5ExhPg/view?usp=drivesdk)
-
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1THavF8XfbiDCVQ4fUKIMlvT7Og5ExhPg/view?usp=drivesdk) 
 ---
 
 # 📷 Hardware Prototype
@@ -230,5 +242,4 @@ Nile University
 📍 Giza, Egypt
 
 ---
-
-⭐ If you found this project interesting, consider giving it a star.
+⭐ If you found this project useful or interesting, consider giving this repository a star.
