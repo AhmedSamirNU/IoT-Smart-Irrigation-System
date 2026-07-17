@@ -6,20 +6,23 @@
 ![IDE](https://img.shields.io/badge/IDE-Arduino_IDE-orange)
 ![IoT](https://img.shields.io/badge/Cloud-Blynk-success)
 
-An IoT-enabled Smart Greenhouse Monitoring and Irrigation System built using **ESP32** to automate irrigation, monitor environmental conditions, detect fire hazards, and provide real-time cloud monitoring through the **Blynk IoT Platform**.
+An IoT-enabled Smart Greenhouse Monitoring and Irrigation System developed using **ESP32**. The system automates irrigation, monitors environmental conditions, detects fire hazards, and enables real-time remote monitoring through the **Blynk IoT Platform**.
 
 ---
 
 # 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Project Concept](#-project-concept)
 - [Features](#-features)
 - [Hardware Components](#-hardware-components)
+- [System Architecture](#-system-architecture)
 - [Software & Tools](#-software--tools)
 - [System Workflow](#-system-workflow)
 - [Project Structure](#-project-structure)
 - [Documentation](#-documentation)
-- [Project Demo](#-project-demo)
+- [Project Demonstration](#-project-demonstration)
+- [Hardware Prototype](#-hardware-prototype)
 - [Future Improvements](#-future-improvements)
 - [Author](#-author)
 
@@ -27,11 +30,21 @@ An IoT-enabled Smart Greenhouse Monitoring and Irrigation System built using **E
 
 # 📌 Overview
 
-Modern agriculture requires intelligent automation to improve efficiency while reducing water consumption and human intervention.
+Modern agriculture increasingly relies on intelligent automation to improve productivity while reducing water consumption and minimizing manual intervention.
 
-This project presents an **IoT-Based Smart Irrigation & Greenhouse Monitoring System** capable of continuously monitoring environmental conditions and automatically controlling irrigation, greenhouse ventilation, and emergency safety mechanisms.
+This project presents an **IoT-Based Smart Irrigation & Greenhouse Monitoring System** capable of monitoring environmental conditions, automatically controlling irrigation and greenhouse ventilation, detecting fire hazards, and providing real-time cloud monitoring using the **Blynk IoT Platform**.
 
-The ESP32 collects sensor data, processes it locally, and uploads live readings to the **Blynk Cloud**, allowing users to monitor the greenhouse remotely from anywhere.
+---
+
+# 🌟 Project Concept
+
+The following illustration represents the envisioned appearance of the proposed smart greenhouse system.
+
+> **Note:** This image is AI-generated and is provided only for conceptual visualization. The actual implemented prototype is shown later in this document.
+
+<p align="center">
+  <img src="Assets/ai-generated-prototype.jpg" width="850">
+</p>
 
 ---
 
@@ -43,9 +56,9 @@ The ESP32 collects sensor data, processes it locally, and uploads live readings 
 - 🌧️ Rain detection
 - 🚰 Water tank level monitoring
 - 🔥 Fire detection with buzzer alarm
-- 🪟 Automatic greenhouse ventilation using Servo Motor
-- ☁️ Real-time monitoring using Blynk IoT
-- 📟 Live Serial Monitor diagnostics
+- 🪟 Automatic greenhouse ventilation using a servo motor
+- ☁️ Real-time cloud monitoring via Blynk IoT
+- 📟 Live sensor diagnostics through the Serial Monitor
 - ⚡ Autonomous real-time operation
 
 ---
@@ -60,12 +73,44 @@ The ESP32 collects sensor data, processes it locally, and uploads live readings 
 | LDR | Light Detection |
 | Water Sensor | Rain Detection |
 | Flame Sensor | Fire Detection |
-| HC-SR04 Ultrasonic Sensor | Water Tank Monitoring |
+| HC-SR04 Ultrasonic Sensor | Water Tank Level Monitoring |
 | Servo Motor SG90 | Greenhouse Window Control |
 | Relay Module | Pump Switching |
 | Water Pump | Irrigation |
-| I2C LCD | Local Display |
+| LCD 16x2 I2C | Local Display |
 | Active Buzzer | Alarm System |
+
+---
+
+# 🏗️ System Architecture
+
+<p align="center">
+  <img src="Diagrams/system-architecture.jpg" width="900">
+</p>
+
+---
+
+# 🔌 Hardware Block Diagram
+
+<p align="center">
+  <img src="Diagrams/hardware-block-diagram.jpg" width="900">
+</p>
+
+---
+
+# 💻 Software Architecture
+
+<p align="center">
+  <img src="Diagrams/software-architecture.jpg" width="900">
+</p>
+
+---
+
+# 🔄 System Flowchart
+
+<p align="center">
+  <img src="Diagrams/system-flowchart.jpg" width="900">
+</p>
 
 ---
 
@@ -108,27 +153,35 @@ Display Data & Alerts
 ```
 IoT-Smart-Irrigation-System
 │
-├── Code/
+├── Assets
+│   ├── ai-generated-prototype.jpg
+│   ├── blynk-dashboard.jpeg
+│   ├── hardware-connections.jpg
+│   └── prototype.jpeg
 │
-├── Documentation/
-│   └── Final Report.pdf
+├── Code
 │
-├── Images/
+├── Diagrams
+│   ├── hardware-block-diagram.jpg
+│   ├── software-architecture.jpg
+│   ├── system-architecture.jpg
+│   └── system-flowchart.jpg
 │
-├── Diagrams/
+├── Documentation
 │
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
 
 # 📄 Documentation
 
-The complete technical report describing the project architecture, implementation, testing procedures, and evaluation is available inside the **Documentation** folder.
+The complete technical report describing the project architecture, implementation, testing, and evaluation is available in the **Documentation** folder.
 
 ---
 
-# 🎥 Project Demo
+# 🎥 Project Demonstration
 
 Watch the complete project demonstration here:
 
@@ -136,15 +189,33 @@ Watch the complete project demonstration here:
 
 ---
 
+# 📷 Hardware Prototype
+
+The following image shows the actual hardware prototype during implementation and testing.
+
+<p align="center">
+  <img src="Assets/prototype.jpeg" width="700">
+</p>
+
+---
+
+# 🔌 Hardware Connections
+
+<p align="center">
+  <img src="Assets/hardware-connections.jpg" width="700">
+</p>
+
+---
+
 # 🚀 Future Improvements
 
-- Weather API Integration
-- MQTT Communication
-- Mobile Push Notifications
-- AI-based Irrigation Prediction
-- Solar Power Integration
-- Cloud Data Analytics
-- Historical Data Logging
+- Weather API integration
+- MQTT communication
+- Mobile push notifications
+- AI-based irrigation prediction
+- Solar-powered operation
+- Historical data logging
+- Cloud analytics dashboard
 
 ---
 
@@ -160,4 +231,4 @@ Nile University
 
 ---
 
-## ⭐ If you found this project interesting, consider giving it a star.
+⭐ If you found this project interesting, consider giving it a star.
